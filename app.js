@@ -7,4 +7,10 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/teste", (req, res) => {
+  res.send({
+    answer_test: "sistema testado"
+  })
+})
+
 app.listen(3000)
