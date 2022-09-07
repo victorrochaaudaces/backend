@@ -25,4 +25,4 @@ app.get("/ramunhole", (req, res) => {
 app.get("/ramunhole2", (req, res) => {
   res.send({answer_test: "funfandaçassossassooo"})
 })
-app.listen(3000)
+app.listen(3010)
