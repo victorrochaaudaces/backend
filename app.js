@@ -12,6 +12,10 @@ app.get("/teste", (req, res) => {
     answer_test: "sistema testado"
   })
 })
+
+app.get("/victor-teste", (req, res) => {
+  res.send({ message: "sua vez Ramon!" })
+})
 // hello
 
 app.listen(3000)
