@@ -18,4 +18,11 @@ app.get("/victor-teste", (req, res) => {
 })
 // hello
 
+app.get("/ramunhole", (req, res) => {
+  res.send({answer_test: "funfandaçasso"})
+})
+
+app.get("/ramunhole2", (req, res) => {
+  res.send({answer_test: "funfandaçassossassooo"})
+})
 app.listen(3000)
