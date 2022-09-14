@@ -30,4 +30,8 @@ app.get("/teste-jenkins", (req, res) => {
   res.send({ message: "jenkins funcionando!" })
 })
 
+app.get("/teste-jenkins2", (req, res) => {
+  res.send({ message: "jenkins funcionando!" })
+})
+
 app.listen(3010)
