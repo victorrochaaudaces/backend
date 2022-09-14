@@ -25,4 +25,9 @@ app.get("/ramunhole", (req, res) => {
 app.get("/ramunhole2", (req, res) => {
   res.send({answer_test: "funfandaçassossassooo"})
 })
+
+app.get("/teste-jenkins", (req, res) => {
+  res.send({ message: "jenkins funcionando!" })
+})
+
 app.listen(3010)
