@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage ('Build Image') {
             steps {
-                script {
-                    dockerapp = docker.build("victorrochaaudaces/teste-node", '-f ./src/dockerfile ./src')
-                }
+                echo: "teste jenkins!"
             }
         }
     }
