@@ -5,7 +5,7 @@ pipeline {
         stage ('Build Image') {
             steps {
                 script {
-                    dockerapp = docker.Build("victorrochaaudaces/teste-node", '-f ./dockerfile ./')
+                    dockerapp = docker.Build("victorrochaaudaces/teste-node", '-f ./src/dockerfile ./src')
                 }
             }
         }
