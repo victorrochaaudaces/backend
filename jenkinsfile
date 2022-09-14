@@ -2,10 +2,8 @@ pipeline {
     agent any
 
     stages {
-        stage ('Build Image') {
-            steps {
-                echo: "teste jenkins!"
-            }
+        stage ('Inicial') {
+                echo: "teste jenkins!"            
         }
     }
 }
