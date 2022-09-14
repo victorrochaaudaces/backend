@@ -1,5 +1,5 @@
 pipeline {
-    agent TI audaces
+    agent any
 
     stages {
         stage ('Build Image') {
